@@ -16,7 +16,7 @@ Run locally in minutes:
 - Frontend
   - `cd frontend`
   - `python -m http.server 8080`
-  - Open `http://127.0.0.1:8080/?env=dev`
+  - Open `http://localhost:8080/`
 - Configuration
   - Edit `frontend/config.js` for local dev (`apiBase` → `http://127.0.0.1:8000`).
   - For production, set `frontend/config.prod.js` and open with `?env=prod`.
